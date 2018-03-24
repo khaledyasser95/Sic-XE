@@ -1,0 +1,49 @@
+prog1       0000       A
+CLOOP       9          R
+NOCH        16         R
+ALPHA       1D         R
+MAX         20         R
+prog2       23          
+-----------------------UPDATED SYMBOL TABLE WITH EQU----------------------
+null        0 H        R
+NOCH        16 H       R
+CLOOP       9 H        R
+MAX         20 H       R
+prog2       23 H       R
+prog1       0          A
+ALPHA       1D H       R
+CLOOP       9          R
+NOCH        16         R
+ZERO        0          A
+Wrong operation : word
+THREE       3          A
+Wrong operation : word
+MIN         1D         R
+Wrong operation : word
+Prog3       0000       A
+-----------------------UPDATED SYMBOL TABLE WITH EQU----------------------
+null        0 H        R
+ZERO        29         A
+NOCH        16 H       R
+MIN         1D H       R
+CLOOP       9 H        R
+MAX         0 H        R
+Prog3       29         A
+prog2       0 H        R
+ALPHA       0 H        R
+THREE       29         A
+ALPHA       18         R
+BETA        1B         R
+GAMMA       1E         R
+DELTA       21         R
+INF         32768      A
+-----------------------UPDATED SYMBOL TABLE WITH EQU----------------------
+null        0 H        R
+GAMMA       1E H       R
+INF         36         A
+MIN         0 H        R
+Prog3       0          A
+MAX         0 H        R
+DELTA       21 H       R
+ALPHA       18 H       R
+BETA        1B H       R
